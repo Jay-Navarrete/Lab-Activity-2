@@ -1,0 +1,16 @@
+#
+name = input('fullname:')
+Id = input('ID#:')
+course = input('Course:')
+section = input('Section:')
+a1 = eval(input('Enter 1st Quarter Grades:'))
+a2 = eval(input('Enter 2nd Quarter Grades:'))
+a3 = eval(input('Enter 3rd Quarter Grades:'))
+a4 = eval(input('Enter 4th Quarter Grades:'))
+avg = (a1 + a2 + a3 + a4)/4
+print("Your details are:")
+print("Full name is: " + name)
+print("ID# is: " + Id)
+print("Course is: " + course)
+print("Section is: " + section)
+print("Average is: " + str(avg))
